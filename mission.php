@@ -11,7 +11,7 @@
 	<body>
 		<div id="window">
 			<div id="smallMenu">
-				<img id="smMeIcon" src="Img/smMeIcon.png">
+				<img id="smMeIcon" src="Img/Shared/smMeIcon.png">
 			</div>
 			<nav id="smMeContainer">
 				<ul id="smMeCoLinks">

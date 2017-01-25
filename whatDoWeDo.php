@@ -11,7 +11,7 @@
 	<body>
 		<div id="window">
 			<div id="smallMenu">
-				<img id="smMeIcon" src="Img/smMeIcon.png">
+				<img id="smMeIcon" src="Img/Shared/smMeIcon.png">
 			</div>
 			<nav id="smMeContainer">
 				<ul id="smMeCoLinks">
@@ -70,7 +70,12 @@
 				<img id="inImg" src="Img/Pdf/whatDoWeDo.jpg">
 			</div>
 			<div id="content">
-				<img id="coImg" src="Img/Pdf/whatDoWeDo2.jpg">
+				<div>
+					<img class="coImg" src="Img/Pdf/whatDoWeDo2.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Pdf/whatDoWeDo3.jpg">
+				</div>
 			</div>
 		</div>
 		<script src="JS/scriptWhatDoWeDo.js"></script>

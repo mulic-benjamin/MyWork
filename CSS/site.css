@@ -4,6 +4,7 @@ body {
     background-color: #FFFFFF;
     color: #696969;
     width: 100%;
+    min-width: 600px;
 }
 /***
                     General
