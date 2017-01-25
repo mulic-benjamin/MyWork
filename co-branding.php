@@ -67,7 +67,7 @@
 				<span>EN</span>
 			</div>
 			<div id="intro">
-				<img id="inImg" src="Img/Pdf/co-brandings.jpg">
+				<img id="inImg" src="Img/Co-brandings/bigImg1.jpg">
 			</div>
 		</div>
 		<script src="JS/scriptCo-brandings.js"></script>

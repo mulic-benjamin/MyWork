@@ -67,14 +67,14 @@
 				<span>EN</span>
 			</div>
 			<div id="intro">
-				<img id="inImg" src="Img/Pdf/whatDoWeDo.jpg">
+				<img id="inImg" src="Img/WhatDoWeDo/bigImg1.jpg">
 			</div>
 			<div id="content">
 				<div>
-					<img class="coImg" src="Img/Pdf/whatDoWeDo2.jpg">
+					<img class="coImg" src="Img/WhatDoWeDo/bigImg2.jpg">
 				</div>
 				<div>
-					<img class="coImg" src="Img/Pdf/whatDoWeDo3.jpg">
+					<img class="coImg" src="Img/WhatDoWeDo/bigImg3.jpg">
 				</div>
 			</div>
 		</div>

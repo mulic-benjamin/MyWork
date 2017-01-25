@@ -67,7 +67,7 @@
 				<span>EN</span>
 			</div>
 			<div id="intro">
-				<img id="inImg" src="Img/Pdf/mission.jpg">
+				<img id="inImg" src="Img/Mission/bigImg1.jpg">
 			</div>
 		</div>
 		<script src="JS/scriptmission.js"></script>
