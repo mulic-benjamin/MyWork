@@ -67,7 +67,30 @@
 				<span>EN</span>
 			</div>
 			<div id="intro">
-				<img id="inImg" src="Img/Collections/bigImg1.jpg">
+				<img id="inImg" src="Img/Collections/bigImg01.jpg">
+			</div>
+			<div id="content">
+				<div>
+					<img class="coImg" src="Img/Collections/bigImg02.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Collections/bigImg03.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Collections/bigImg04.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Collections/bigImg05.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Collections/bigImg06.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Collections/bigImg07.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Collections/bigImg08.jpg">
+				</div>
 			</div>
 		</div>
 		<script src="JS/scriptCollections.js"></script>

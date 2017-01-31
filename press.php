@@ -67,7 +67,42 @@
 				<span>EN</span>
 			</div>
 			<div id="intro">
-				<img id="inImg" src="Img/Press/bigImg1.jpg">
+				<img id="inImg" src="Img/Press/bigImg01.jpg">
+			</div>
+			<div id="content">
+				<div>
+					<img class="coImg" src="Img/Press/bigImg02.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg03.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg04.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg05.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg06.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg07.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg08.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg09.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg10.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg11.jpg">
+				</div>
+				<div>
+					<img class="coImg" src="Img/Press/bigImg12.jpg">
+				</div>
 			</div>
 		</div>
 		<script src="JS/scriptPress.js"></script>

@@ -98,3 +98,15 @@ a {
     margin: auto;
     vertical-align: middle;
 }
+
+/***
+                    Content
+                                            ***/
+#content {
+    width: 100%;
+    opacity: 0;
+}
+
+.coImg {
+    width: 100%;
+}
