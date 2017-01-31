@@ -28,13 +28,13 @@ $( document ).ready(function() {
 		var width = $("#smMeContainer").css("width");
 		if (width == "0px") {
 			$("#smMeContainer").css( "width", "50%");
-			$("#smMeCoLinks").delay(500).queue(function() {
+			$("#smMeCoLinks").stop().delay(500).queue(function() {
                $(this).css( "opacity", 1).dequeue();
-           });
+           	});
 		}
 		else {
 			$("#smMeContainer").css( "width", "0px");
-			$("#smMeCoLinks").css( "opacity", 0);
+			$("#smMeCoLinks").stop().css( "opacity", 0);
 		}
 	});
 
