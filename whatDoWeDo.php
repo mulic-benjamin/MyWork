@@ -32,5 +32,6 @@
 			</div>
 		</div>
 		<script src="JS/whatDoWeDo.js"></script>
+		<script src="JS/Includes/smallMenu.js"></script>
 	</body>
 </html> 

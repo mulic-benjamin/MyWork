@@ -24,5 +24,6 @@
 			</div>
 		</div>
 		<script src="JS/mission.js"></script>
+		<script src="JS/Includes/smallMenu.js"></script>
 	</body>
 </html> 

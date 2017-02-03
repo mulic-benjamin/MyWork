@@ -24,5 +24,6 @@
 			</div>
 		</div>
 		<script src="JS/contactUs.js"></script>
+		<script src="JS/Includes/smallMenu.js"></script>
 	</body>
 </html> 

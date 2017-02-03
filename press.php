@@ -59,5 +59,6 @@
 			</div>
 		</div>
 		<script src="JS/press.js"></script>
+		<script src="JS/Includes/smallMenu.js"></script>
 	</body>
 </html> 

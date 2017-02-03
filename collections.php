@@ -47,5 +47,6 @@
 			</div>
 		</div>
 		<script src="JS/collections.js"></script>
+		<script src="JS/Includes/smallMenu.js"></script>
 	</body>
 </html> 

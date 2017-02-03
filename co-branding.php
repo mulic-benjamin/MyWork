@@ -62,5 +62,6 @@
 			</div>
 		</div>
 		<script src="JS/co-brandings.js"></script>
+		<script src="JS/Includes/smallMenu.js"></script>
 	</body>
 </html> 

@@ -132,5 +132,6 @@
 			</div>-->
 		</div>
 		<script src="JS/index.js"></script>
+		<script src="JS/Includes/smallMenu.js"></script>
 	</body>
 </html> 
