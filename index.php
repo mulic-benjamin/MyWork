@@ -4,64 +4,17 @@
 	<head>
 		<title>Beyond</title>
 		<link href="CSS/normalize.css" rel="stylesheet">
-		<link href="CSS/site.css" rel="stylesheet">
+		<link href="CSS/index.css" rel="stylesheet">
+		<link href="CSS/Includes/smallMenu.css" rel="stylesheet">
 		<script src="JS/jquery-3.1.1.min.js"></script>
 	</head>
 
 	<body>
 		<div id="window">
-			<div id="smallMenu">
-				<img id="smMeIcon" src="Img/Shared/smMeIcon.png">
-			</div>
-			<nav id="smMeContainer">
-				<ul id="smMeCoLinks">
-					<li class="smMeCoLiLink">
-						<a href="index.php">
-							Accueil
-						</a>
-					</li>
-					<li class="smMeCoLiLink">
-						<a href="about.php">
-							About
-						</a>
-					</li>
-					<li class="smMeCoLiLink">
-						<a href="mission.php">
-							Mission
-						</a>
-					</li>
-					<li class="smMeCoLiLink">
-						<a href="whatDoWeDo.php">
-							What do we do
-						</a>
-					</li>
-					<li class="smMeCoLiLink">
-						<a href="co-branding.php">
-							Co-brandings
-						</a>
-					</li>
-					<li class="smMeCoLiLink">
-						<a href="collections.php">
-							Collections
-						</a>
-					</li>
-					<!--<li class="smMeCoLiLink">
-						<a href="instagram.php">
-							Instagram
-						</a>
-					</li>-->
-					<li class="smMeCoLiLink">
-						<a href="press.php">
-							Press
-						</a>
-					</li>
-					<li class="smMeCoLiLink">
-						<a href="contactUs.php">
-							Contact us
-						</a>
-					</li>
-				</ul>
-			</nav>
+			<?php
+				define('__ROOT__', dirname(__FILE__)); 
+				require_once(__ROOT__.'/Includes/smallMenu.php');
+			?>
 			<div id="intro">
 				<img id="logo" src="Img/Index/beyond_logo.jpg">
 			</div>
@@ -178,6 +131,6 @@
 				</div>
 			</div>-->
 		</div>
-		<script src="JS/script.js"></script>
+		<script src="JS/index.js"></script>
 	</body>
 </html> 
