@@ -1,50 +1,50 @@
 <div id="smallMenu">
-	<img id="smMeIcon" src="Img/Shared/smMeIcon.png">
+	<img id="smIcon" src="Img/Shared/smMeIcon.png">
 </div>
-<nav id="smMeContainer">
-	<ul id="smMeCoLinks">
-		<li class="smMeCoLiLink">
-			<a href="index.php">
+<nav id="smBox">
+	<ul id="smBoLinksBox">
+		<li class="BoLiLinkWraper">
+			<a class="LiLiLink" href="index.php">
 				Accueil
 			</a>
 		</li>
-		<li class="smMeCoLiLink">
-			<a href="about.php">
+		<li class="BoLiLinkWraper">
+			<a class="LiLiLink" href="about.php">
 				About
 			</a>
 		</li>
-		<li class="smMeCoLiLink">
-			<a href="mission.php">
+		<li class="BoLiLinkWraper">
+			<a class="LiLiLink" href="mission.php">
 				Mission
 			</a>
 		</li>
-		<li class="smMeCoLiLink">
-			<a href="whatDoWeDo.php">
+		<li class="BoLiLinkWraper">
+			<a class="LiLiLink" href="whatDoWeDo.php">
 				What do we do
 			</a>
 		</li>
-		<li class="smMeCoLiLink">
-			<a href="co-branding.php">
+		<li class="BoLiLinkWraper">
+			<a class="LiLiLink" href="co-branding.php">
 				Co-brandings
 			</a>
 		</li>
-		<li class="smMeCoLiLink">
-			<a href="collections.php">
+		<li class="BoLiLinkWraper">
+			<a class="LiLiLink" href="collections.php">
 				Collections
 			</a>
 		</li>
-		<!--<li class="smMeCoLiLink">
-			<a href="instagram.php">
+		<!--<li class="BoLiLinkWraper">
+			<a class="LiLiLink" href="instagram.php">
 				Instagram
 			</a>
 		</li>-->
-		<li class="smMeCoLiLink">
-			<a href="press.php">
+		<li class="BoLiLinkWraper">
+			<a class="LiLiLink" href="press.php">
 				Press
 			</a>
 		</li>
-		<li class="smMeCoLiLink">
-			<a href="contactUs.php">
+		<li class="BoLiLinkWraper">
+			<a class="LiLiLink" href="contactUs.php">
 				Contact us
 			</a>
 		</li>

@@ -1,4 +1,4 @@
-#smMeIcon {
+#smIcon {
     height: 79px;
 }
 
@@ -10,7 +10,7 @@
     display: none;
 }
 
-#smMeContainer {
+#smBox {
     position: fixed;
     z-index: 99;
     width: 0;
@@ -25,7 +25,7 @@
     transition: width 1s cubic-bezier(.7,.35,.46,1.49) 0s;
 }
 
-#smMeCoLinks {
+#smBoLinksBox {
     opacity: 0;
     list-style-type: none;
     padding: 0px 0px 0px 0px;
@@ -37,7 +37,16 @@
     transition: opacity 0.5s linear;
 }
 
-.smMeCoLiLink {
+.BoLiLinkWraper {
     text-align: center;
     padding: 7% 0px 7% 0px;
+}
+
+.LiLiLink {
+
+}
+
+.LiLiLink:hover {
+    margin-left: 10px;
+    transition: margin-left .5s;
 }

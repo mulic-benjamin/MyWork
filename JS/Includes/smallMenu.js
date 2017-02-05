@@ -10,16 +10,16 @@ $( document ).ready(function() {
 
 
 	$( "#smallMenu" ).click(function() {
-		var width = $("#smMeContainer").css("width");
+		var width = $("#smBox").css("width");
 		if (width == "0px") {
-			$("#smMeContainer").css( "width", "25%");
-			$("#smMeCoLinks").stop().delay(500).queue(function() {
+			$("#smBox").css( "width", "25%");
+			$("#smBoLinksBox").stop().delay(500).queue(function() {
                $(this).css( "opacity", 1).dequeue();
            });
 		}
 		else {
-			$("#smMeContainer").css( "width", "0px");
-			$("#smMeCoLinks").stop().css( "opacity", 0);
+			$("#smBox").css( "width", "0px");
+			$("#smBoLinksBox").stop().css( "opacity", 0);
 		}
 	});
 
