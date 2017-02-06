@@ -99,6 +99,7 @@ a {
                                             ***/
 #bigMenu{
     display:flex;
+    min-width: 800px;
 }
 
 #line1{

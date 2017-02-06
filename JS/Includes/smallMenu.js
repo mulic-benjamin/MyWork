@@ -12,7 +12,7 @@ $( document ).ready(function() {
 	$( "#smallMenu" ).click(function() {
 		var width = $("#smBox").css("width");
 		if (width == "0px") {
-			$("#smBox").css( "width", "25%");
+			$("#smBox").css( "width", "307px");
 			$("#smBoLinksBox").stop().delay(500).queue(function() {
                $(this).css( "opacity", 1).dequeue();
            });
