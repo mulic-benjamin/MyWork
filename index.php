@@ -16,7 +16,7 @@
 				require_once(__ROOT__.'/Includes/smallMenu.php');
 			?>
 			<div id="intro">
-				<img id="logo" src="Img/Index/beyond_logo.jpg">
+				<img id="logo" src="Img/Shared/beyond_logo.jpg">
 			</div>
 			<div id="language">
 				<span id="laFrancais">FR</span>

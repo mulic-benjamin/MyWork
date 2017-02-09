@@ -4,7 +4,7 @@ body {
     background-color: #FFFFFF;
     color: #696969;
     width: 100%;
-    min-width: 600px;
+    min-width: 1000px;
 }
 /***
                     General
@@ -99,7 +99,6 @@ a {
                                             ***/
 #bigMenu{
     display:flex;
-    min-width: 800px;
 }
 
 #line1{

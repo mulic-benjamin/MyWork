@@ -7,6 +7,7 @@ body {
     background-color: #FFFFFF;
     color: #696969;
     width: 100%;
+    min-width: 1000px;
 }
 
 a {
@@ -39,18 +40,59 @@ a {
                                             ***/
 
 #intro {
-    height: 100%;
-    height: 100vh;
-    min-height: 560px;
+    position: relative;
     width:100%;
-    display:flex;
+    display:block;
     opacity: 0;
-    margin-bottom: 2px;
-    overflow: hidden;
 }
 
 #inImg {
-    width: 100%;
-    margin: auto;
-    vertical-align: middle;
+
+}
+
+#inLogo {
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+    background-color: white;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 40px;
+    color: #646464;
+
+}
+
+#inContent {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+    color: #646464;
+    opacity: 1;
+}
+
+#inCoTitle {
+    text-align: center;
+}
+
+#inCoPhrase {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#CoPhText {
+
 }
