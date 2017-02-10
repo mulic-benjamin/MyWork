@@ -5,7 +5,7 @@
 		<title>Beyond - about</title>
 		<link href="CSS/normalize.css" rel="stylesheet">
 		<link href="CSS/about.css" rel="stylesheet">
-		<link href="CSS/Includes/smallMenu.css" rel="stylesheet">
+		<link href="CSS/shared.css" rel="stylesheet">
 		<script src="JS/jquery-3.1.1.min.js"></script>
 	</head>
 
