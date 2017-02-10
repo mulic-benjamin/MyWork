@@ -1,11 +1,33 @@
 /***
+                    Added Fonts
+                                            ***/
+
+/***Raleway***/                                    
+@font-face {
+  font-family: 'Raleway';
+  src: url('Fonts/Raleway/raleway_thin-webfont.eot');
+  src: url('Fonts/Raleway/raleway_thin-webfont.woff') format('woff'),
+        url('Fonts/Raleway/raleway_thin-webfont.svg#raleway_thin-webfont') format('svg'),
+        url('Fonts/Raleway/raleway_thin-webfont.ttf') format('truetype');
+}
+
+/***Open Sans***/ 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('Fonts/OpenSans/regular/OpenSans.eot');
+    src: url('Fonts/OpenSans/regular/OpenSans.woff') format('woff'),
+        url('Fonts/OpenSans/regular/OpenSans.svg#OpenSans') format('svg'),
+        url('Fonts/OpenSans/regular/OpenSans.ttf') format('truetype');
+}
+
+/***
                     General
                                             ***/
 body {
-    font-family: "Big Caslon", "Book Antiqua", "Trebuchet MS", Verdana, sans-serif;
+    font-family: "Open Sans", "Raleway", "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
     background-color: #FFFFFF;
-    color: #696969;
+    color: #373737;
     width: 100%;
     min-width: 1000px;
 }
