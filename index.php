@@ -18,18 +18,18 @@
 			<div id="intro">
 				<img id="logo" src="Img/Shared/beyond_logo.jpg">
 			</div>
-			<div id="language">
+			<!--<div id="language">
 				<span id="laFrancais">FR</span>
 				<span>EN</span>
-			</div>
+			</div>-->
 			<div id="instagram">
 				<a href="index.php">
-					<img id="inLogo" src="Img/Index/instagram_button.png">
+					<img id="inLogo" src="Img/Shared/logoInsta.png">
 				</a>
 			</div>
 			<div id="newsletter">
 				<a href="index.php">
-					<img id="neLogo" src="Img/Index/newsletter.png">
+					<img id="neLogo" src="Img/Shared/logoFb.png">
 				</a>
 			</div>
 			<div id="content">

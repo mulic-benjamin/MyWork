@@ -15,12 +15,17 @@
 				define('__ROOT__', dirname(__FILE__)); 
 				require_once(__ROOT__.'/Includes/smallMenu.php');
 			?>
-			<div id="language">
+			<!--<div id="language">
 				<span id="laFrancais">FR</span>
 				<span>EN</span>
-			</div>
+			</div>-->
 			<div id="intro">
 				<img id="inImg" src="Img/ContactUs/bigImg01.jpg">
+				<span id="inEmail">
+					<a id="inEmLink" href="#">
+						lm@agencybeyond.com
+					</a>
+				</span>
 			</div>
 		</div>
 		<script src="JS/contactUs.js"></script>

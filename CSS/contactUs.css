@@ -32,10 +32,25 @@
     opacity: 0;
     margin-bottom: 2px;
     overflow: hidden;
+    position: relative;
 }
 
 #inImg {
     width: 100%;
     margin: auto;
     vertical-align: middle;
+}
+
+#inEmail {
+    position: absolute;
+    top: 432px;
+    left: 606px;
+    bottom: 0;
+    right: 0;
+    font-size: 29px;
+}
+
+#inEmLink {
+    text-decoration: underline;
+    color: blue;
 }

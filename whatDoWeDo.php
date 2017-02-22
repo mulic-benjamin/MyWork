@@ -15,19 +15,16 @@
 				define('__ROOT__', dirname(__FILE__)); 
 				require_once(__ROOT__.'/Includes/smallMenu.php');
 			?>
-			<div id="language">
+			<!--<div id="language">
 				<span id="laFrancais">FR</span>
 				<span>EN</span>
-			</div>
+			</div>-->
 			<div id="intro">
 				<img id="inImg" src="Img/WhatDoWeDo/bigImg01.jpg">
 			</div>
 			<div id="content">
 				<div>
 					<img class="coImg" src="Img/WhatDoWeDo/bigImg02.jpg">
-				</div>
-				<div>
-					<img class="coImg" src="Img/WhatDoWeDo/bigImg03.jpg">
 				</div>
 			</div>
 		</div>
