@@ -16,7 +16,13 @@
 				require_once(__ROOT__.'/Includes/smallMenu.php');
 			?>
 			<div id="intro">
-				<img id="logo" src="Img/Shared/beyond_logo.jpg">
+				<img id="inBackground" src="Img/Index/backgroundImg.jpg">
+				<div id="inLogoContainer">
+					<img id="inLoLogo" src="Img/Shared/logo.png">
+				</div>
+				<h1 id="inText">
+					When merging creativity and business it is just</br> as important to exceed expectations</br> as it is to connect with the right people.</br> Synergy is key and vision is essential</br> when pushing forward new ideas.
+				</h1>
 			</div>
 			<!--<div id="language">
 				<span id="laFrancais">FR</span>

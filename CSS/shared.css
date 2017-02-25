@@ -1,6 +1,8 @@
 /***
                     Added Fonts
                                             ***/
+/***Playfair Display***/ 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 /***Raleway***/                                    
 @font-face {
@@ -24,10 +26,10 @@
                     General
                                             ***/
 body {
-    font-family: "Open Sans", "Raleway", "Trebuchet MS", Verdana, sans-serif;
+    font-family: "Playfair Display", "Open Sans", "Trebuchet MS", Verdana, serif;
     font-size: 16px;
     background-color: #FFFFFF;
-    color: #373737;
+    color: #414141;
     width: 100%;
     min-width: 1000px;
 }

@@ -2,17 +2,19 @@
                     Fixed intro
                                             ***/
 #language {
-    display: none;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 100%;
     right: 0;
-    transform: translateX(-100%);
+    padding-top: 1%;
     height: 4%;
     width: 6%;
+
+    display: none;
+    transform: translateX(-100%);
+    
     font-size: 120%;
-    padding-top: 1%;
 }
 
 #laFrancais {
@@ -28,13 +30,71 @@
     height: 100vh;
     min-height: 560px;
     width:100%;
+
     display:flex;
+    position:relative;
     opacity: 0;
     overflow: hidden;
 }
 
-#inImg {
+#inBackground {
     width: 100%;
     margin: auto;
+
     vertical-align: middle;
+}
+
+#inText {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    line-height: 100%;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: italic;
+    color: #dbdbdb;
+    line-height: 185%;
+    word-spacing: 65%;
+    letter-spacing: 1px;
+}
+
+#inLogoContainer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 70%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    line-height: 100%;
+    font-size: 80%;
+    font-weight: bold;
+    color: #dbdbdb;
+    line-height: 185%;
+    word-spacing: 65%;
+    letter-spacing: 1px;
+}
+
+#inLoLine {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
