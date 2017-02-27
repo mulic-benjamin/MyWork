@@ -21,7 +21,14 @@
 			</div>-->
 			<div id="intro">
 				<img id="inImg" src="Img/Mission/bigImg01.jpg">
+				<div id="inLogoContainer">
+					<img id="inCoLogo" src="Img/Shared/logo.png">
+				</div>
+				<h1 id="inText">
+					Beyond is dedicated to maximizing the potential of</br> your business by developing ideal</br> brand extensions and strategic partnership
+				</h1>
 			</div>
+
 		</div>
 		<script src="JS/mission.js"></script>
 		<script src="JS/Includes/smallMenu.js"></script>

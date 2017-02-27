@@ -18,7 +18,7 @@
 			<div id="intro">
 				<img id="inBackground" src="Img/Index/backgroundImg.jpg">
 				<div id="inLogoContainer">
-					<img id="inLoLogo" src="Img/Shared/logo.png">
+					<img id="inCoLogo" src="Img/Shared/logo.png">
 				</div>
 				<h1 id="inText">
 					When merging creativity and business it is just</br> as important to exceed expectations</br> as it is to connect with the right people.</br> Synergy is key and vision is essential</br> when pushing forward new ideas.

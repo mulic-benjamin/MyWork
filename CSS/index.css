@@ -1,48 +1,49 @@
 /***
                     Intro
                                             ***/
-#inBackground {
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    vertical-align: middle;
-}
 
 #intro {
-    height: 100%;
-    height: 100vh;
-    min-height: 560px;
     width:100%;
+    height: 100vh;
+    position: relative;
+
+    min-height: 560px;
     display:flex;
     opacity: 0;
     margin-bottom: 2px;
     overflow: hidden;
-    position: relative;
+}
+
+#inBackground {
+    width: 100%;
+    height: 100%;
 }
 
 #inLogoContainer {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 2%;
     right: 0;
-    top: 0;
+    bottom: 0;
+    left: 40%;
     width: 20%;
-    margin-left: 40%;
-    margin-top: 2%;
+    height: 15%;
 }
 
-#inLoLogo {
+#inCoLogo {
     width: 100%;
 }
 
 #inText {
     position: absolute;
-    top: 0;
+    top: 30%;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 15%;
+    width: 70%;
+    height: 40%;
+
     display: flex;
-    width: 100%;
+    
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -58,9 +59,10 @@
     display: none;
     position: absolute;
     top: 0;
+    right: 0;
     bottom: 0;
     left: 100%;
-    right: 0;
+    
     transform: translateX(-100%);
     height: 4%;
     width: 6%;
@@ -72,16 +74,17 @@
     padding-right: 9%;
 }
 #instagram {
-    display: none;
     z-index: 98;
     position: fixed;
     top: 98vh;
-    transform: translateY(-100%);
+    right: 0px;
     bottom: 0px;
     left: 88vw;
-    right: 0px;
     width: 4vw;
     height: 8vh;
+
+    display: none;
+    transform: translateY(-100%);
 }
 
 #inLogo {
@@ -89,16 +92,17 @@
 }
 
 #newsletter {
-    display: none;
     z-index: 98;
     position: fixed;
     top: 98vh;
-    transform: translate(-100%, -100%);
+    right: 0px;
     bottom: 0px;
     left: 97vw;
-    right: 0px;
     width: 3.8vw;
     height: 8vh;
+
+    display: none;
+    transform: translate(-100%, -100%);
 }
 
 #neLogo {
@@ -119,15 +123,20 @@
 }
 
 #line1{
-    display:flex;
-    flex-flow: column;
     width: 50%;
+
+    display:flex;
+
+    flex-flow: column;
 }
 
 #line2{
-    display:flex;
-    flex-flow: column;
     width: 50%;
+
+    display:flex;
+
+    flex-flow: column;
+    
 }
 
 .bgMeCells {
@@ -171,33 +180,38 @@
 }
 
 .imgMenu {
-    vertical-align: text-bottom;
     width:100%;
     height:100%;
+
+    vertical-align: text-bottom;
 }
 
 .bgMeCeHoover {
-    background: rgba(255, 255, 255, 0.85) none repeat scroll 0 0;
     position: absolute;
     top: 0%;
     width: 100%;
     height: 100%;
+
+    background: rgba(255, 255, 255, 0.85) none repeat scroll 0 0;
     opacity: 0;
     transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
 }
 
 .bgMeCeHoTextBlock {
-    height: auto;
-    left: 50%;
     position: absolute;
-    text-align: center;
     top: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%;
     width: 75%;
+    height: auto;
+    
+    transform: translate(-50%, -50%);
+
+    text-align: center;
 }
 
 .bgMeCeHoTeTitle {
     margin: 0px 0px 0px 0px;
+
     font-family: "monarcha" !important;
     color: rgb(49,64,69);
     font-size: 300%;

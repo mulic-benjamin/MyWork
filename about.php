@@ -26,7 +26,7 @@
 				</div>
 				<div id="inLogoContainer">
 					LEYLA MATISSON</br> FOUNDER
-					<div id="inLoLine">
+					<div id="inCoLine">
 					</div>
 				</div>
 			</div>

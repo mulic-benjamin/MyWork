@@ -46,12 +46,12 @@
 
 #inText {
     position: absolute;
-    top: 0;
+    top: 57%;
     right: 0;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    margin-top: 40%;
+    left: 10%;
+    width: 80%;
+    height: 25%;
 
     display: flex;
     align-items: center;
@@ -70,12 +70,12 @@
 
 #inLogoContainer{
     position: absolute;
-    top: 0;
+    top: 79%;
     right: 0;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    margin-top: 70%;
+    left: 40%;
+    width: 20%;
+    height: 10%;
 
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
     letter-spacing: 1px;
 }
 
-#inLoLine {
+#inCoLine {
     position: absolute;
     top: 0;
     right: 0;

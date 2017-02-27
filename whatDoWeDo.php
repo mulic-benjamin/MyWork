@@ -20,11 +20,35 @@
 				<span>EN</span>
 			</div>-->
 			<div id="intro">
-				<img id="inImg" src="Img/WhatDoWeDo/bigImg01.jpg">
-			</div>
-			<div id="content">
-				<div>
-					<img class="coImg" src="Img/WhatDoWeDo/bigImg02.jpg">
+				<div id="inPart1">
+					<img id="inP1Img" src="Img/WhatDoWeDo/bigImg01.jpg">
+					<div id="inP1LogoContainer">
+						<img id="P1CoLogo" src="Img/Shared/logo.png">
+					</div>
+					<div id="inP1DiagramContainer">
+						<img id="P1CoDiagram" src="Img/WhatDoWeDo/diagram.png">
+						<h1 class="P1CoTitle" id="P1CoTitle1">
+							Analysis
+						</h1>
+						<h1 class="P1CoTitle" id="P1CoTitle2">
+							Brand Strategy
+						</h1>
+						<h1 class="P1CoTitle" id="P1CoTitle3">
+							Portfolio</br>Development
+						</h1>
+						<h1 class="P1CoTitle" id="P1CoTitle4">
+							Partnerships and</br> Co-brandings
+						</h1>
+						<h1 class="P1CoTitle" id="P1CoTitle5">
+							Integrated an/or</br> Licensed Collections
+						</h1>
+					</div>
+				</div>
+				<div id="inPart2">
+					<img id="inP2Img" src="Img/WhatDoWeDo/bigImg02.jpg">
+					<div id="inP2DiagramContainer">
+						<img id="inP2CoDiagram" src="">
+					</div>
 				</div>
 			</div>
 		</div>
